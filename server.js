@@ -10,8 +10,10 @@ app.use(cors({
 const PORT = 4000;
 
 const products = [
-  { id: '1', name: 'Product 1', price: 10 },
-  { id: '2', name: 'Product 2', price: 14 },
+  { id: '1', name: 'ModGud', price: 10 },
+  { id: '2', name: 'Er hook', price: 14 },
+  { id: '3', name: 'Ravi Mg', price: 14 },
+  { id: '4', name: 'Ravi-karun Homies', price: 14 },
 ];
 
 const users = [
