@@ -10,15 +10,15 @@ app.use(cors({
 const PORT = 4000;
 
 const products = [
-  { id: '1', name: 'ModGud', price: 10 },
-  { id: '2', name: 'Er hook', price: 14 },
-  { id: '3', name: 'Ravi Mg', price: 14 },
-  { id: '4', name: 'Ravi-karun Homies', price: 14 },
+  { id: '1', name: 'Hoppscotch', price: 100 },
+  { id: '2', name: 'Graphql', price: 149 },
+  { id: '3', name: 'Sockets', price: 149 },
+  { id: '4', name: 'APIs', price: 99 },
 ];
 
 const users = [
-  { id: '1', username: 'user1', email: 'user1@example.com', orders: ['1', '2'] },
-  { id: '2', username: 'user2', email: 'user2@example.com', orders: ['2'] },
+  { id: '1', username: 'SriramAdari', email: 'user1@example.com', orders: ['1', '2'] },
+  { id: '2', username: 'LeviAckerman', email: 'user2@example.com', orders: ['2'] },
 ];
 
 const ProductType = new GraphQLObjectType({
